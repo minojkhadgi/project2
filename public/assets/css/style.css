@@ -1,0 +1,114 @@
+body {
+  padding-top: 54px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: rgb(223, 223, 223);
+  font-family: 'Lato', sans-serif;
+}
+
+.content {
+  margin-top: 5rem;
+}
+
+#mapid {
+  height: 380px;
+}
+
+.navbar-custom,
+.custom-btn,
+footer {
+  background-image: linear-gradient(to right top, #845ec2, #2c73d2, #0081cf, #0089ba, #008e9b, #008f7a);
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.custom-btn:hover {
+  background-image: linear-gradient(to left top, #845ec2, #2c73d2, #0081cf, #0089ba, #008e9b, #008f7a);
+  color: white;
+  border-radius: 0;
+}
+
+.navbar-custom .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(255, 255, 203, 0.7);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h1.title {
+  margin: 2.5rem 0 1rem 0;
+}
+
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus,
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus,
+.navbar-custom .navbar-nav>.open>a {
+  text-decoration: none;
+}
+
+.navbar-custom .navbar-brand {
+  color: white;
+}
+
+a:hover {
+  color: #2193b0;
+}
+
+.custom-btn {
+  border-color: #2193b0;
+}
+
+h3.sponsors {
+  margin-top: 10rem;
+}
+
+@media (min-width: 992px) {
+  body {
+      padding-top: 56px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+#backArrow {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 667px) {
+  #truckListDiv {
+      display: none;
+  }
+}

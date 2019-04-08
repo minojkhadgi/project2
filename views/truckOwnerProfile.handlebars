@@ -1,0 +1,71 @@
+<div id="truckID" data-id="{{truck.id}}"></div>
+<br>
+<div class="row justify-content-center">
+    <div class="col-sm col-md-8 align-self-center">
+        <div class="card mb-3 shadow bg-white rounded text-center">
+            <div class="card-block">
+                <button id="locationBtn" class="btn btn-primary btn-block shadow-sm">
+                    <i class="material-icons" style="font-size:1em">
+                        pin_drop
+                    </i>&nbsp;Click here to update your location
+
+                </button>
+                <div class="text-center">
+                    <small class="text-muted" id="locUpdate"></small>
+                </div>
+                <hr style="width: 50%;">
+                <h1 class="card-title text-center" style="color: #0480cf; text-shadow: 1px 1px 2px rgb(167, 167, 167);">Welcome {{truck.truckName}}.</h1>
+
+                <p class="card-text" style="padding-left:5px;">
+                    <b>
+                        <u>Truck Category: </u>
+                    </b>
+                    <br>{{truck.category}}.</p>
+                <p class="card-text" style="padding-left:5px;">
+                    <b>
+                        <u>Truck Description: </u>
+                    </b>
+                    <br>{{truck.desc}}.</p>
+                <p class="card-text" style="padding-left:5px;">
+                    <b>
+                        <u>Registered license-plate: </u>
+                    </b>
+                    <br>{{truck.licensePlate}}.</p>
+                {{#if truck.menuURL}}
+                <p class="card-text" style="padding-left:5px;">
+                    <b>
+                        <u>Truck Menu: </u>
+                    </b>
+                    <a href="{{truck.menuURL}}" target="_blank">View Menu!</a>
+                </p>
+                {{else}}
+                <p class="card-text" style="padding-left:5px;">
+                    <b>
+                        <u>Truck Menu: </u>
+                    </b>
+                    <i>Please add a menu link!</i>
+                </p>
+                {{/if}}
+                <div class="text-center">
+                    <br>
+                    <p class="card-text" style="padding-left:5px;">
+                        <a href="/truckProfileUpdate" class="btn custom-btn rounded">
+                            <i class="material-icons" style="font-size:0.8em">border_color
+                            </i>&nbsp;&nbsp;Update account details&nbsp;</a>
+                    </p>
+                </div>
+                <br>
+                <img class="card-img-bottom" src="{{truck.pictureURL}}" alt="Please add a picture URL!" style="opacity: 0.8;">
+            </div>
+            <div class="text-center">
+                <p class="card-text">
+                    <small class="text-muted">Profile last updated: {{truck.updatedAt}}</small>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+{{> tpScript}}
