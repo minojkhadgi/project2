@@ -9,7 +9,7 @@ L.tileLayer(
     maxZoom: 18,
     minZoom: 13,
     id: "mapbox.emerald",
-    accessToken: "pk.eyJ1Ijoic2FtLXBvcCIsImEiOiJjamhucjhhNXgwNTE0MzZwYWQxenprNG5kIn0.9c-GiLb45NYrZeAiy3TZ6w"
+    accessToken: "pk.eyJ1IjoibWVuZ2UxMyIsImEiOiJjanUxdmc5dWEwNXdtNDBsa3ByaGQwcXZ6In0.ZKOHag8g28CcV4KZ2kOZ2g"
   }
 ).addTo(mymap);
 
