@@ -1,8 +1,8 @@
 [{
     "model": "User",
     "data": {
-        "name": "Yev Kassem",
-        "email": "a@gmail.com",
+        "name": "Mengistu",
+        "email": "men@gmail.com",
         "password": "a",
         "isTruckOwner": true
 
@@ -10,11 +10,12 @@
 }, {
     "model": "Truck",
     "data": {
-        "truckName": "The Soup Truck",
+        "truckName": "The ice cream Truck",
         "desc": "The best artisans soups in town! But only if you can order it right...",
-        "category": "Soups, Bread",
-        "licensePlate": "S0UPN4Z1",
-        "pictureURL": "https://roaminghunger.com/img/trucks/original/5328f47e-cf20-4956-8a1d-062846204482.JPG",
+        "category": "PEANUT BUTTER & CHOCOLATE",
+        "licensePlate": "meng1878",
+        "pictureURL": "https://previews.123rf.com/images/egudinka/egudinka1605/egudinka160500040/57688273-ice-cream-truck-side-view-seller-of-ice-cream-in-the-van-ice-cream-van-isolated-vector-flat-design-i.jpg",
+        "menuURL":"https://s3-media1.fl.yelpcdn.com/bphoto/3yEAF-wX9K99JXX0N-eLJg/o.jpg",
         "UserId": 1
     }
 },
@@ -30,20 +31,20 @@
 {
     "model": "User",
     "data": {
-        "name": "Carlos Manny",
-        "email": "carlos@gmail.com",
-        "password": "a1",
+        "name": "Minoj",
+        "email": "minoj@gmail.com",
+        "password": "m2",
         "isTruckOwner": true
 
     }
 }, {
     "model": "Truck",
     "data": {
-        "truckName": "Far East Taco Fusion",
+        "truckName": "Food truck",
         "desc": "Whether you have a quick lunch-break downtown between meetings, or you’re a tourist looking for street food, Far East Taco Grille is quintessentially American in that street food ethnic fusion sense. The flavors are insatiable. Though you might not think bahn mi or kimchi belong in the flavor profile of tacos, the sweet and spicy mix amazingly.",
         "category": " Asian Fusion, Mexican",
-        "licensePlate": "TACO998",
-        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/mDQZqQcQopk4yFBApfNT2A/o.jpg",
+        "licensePlate": "MGWU432",
+        "pictureURL": "https://citrusheightssentinel.com/wp-content/uploads/2016/06/Food-Truck-mania-copyright-SunriseParks.jpg",
         "menuURL": "https://s3-media4.fl.yelpcdn.com/bphoto/4xPhtl81ainvrK3iOBlIOw/o.jpg",
         "UserId": 2
     }
@@ -60,21 +61,21 @@
 {
     "model": "User",
     "data": {
-        "name": "Ahmed Ahmed",
-        "email": "ahmed@gmail.com",
-        "password": "a1",
+        "name": "Rigel",
+        "email": "rigel@gmail.com",
+        "password": "r1",
         "isTruckOwner": true
 
     }
 }, {
     "model": "Truck",
     "data": {
-        "truckName": "Halal Grill DC",
-        "desc": "Halal & Mediterranean food for the messes! chicken, beef, gyro and more!",
-        "category": "Halal, Mediterranean",
-        "licensePlate": "H4L4L2",
-        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/bklq9t48A1vQv1dDtHjkgw/o.jpg",
-        "menuURL": "https://s3-media1.fl.yelpcdn.com/bphoto/3yEAF-wX9K99JXX0N-eLJg/o.jpg",
+        "truckName": "BEST COFFEE",
+        "desc": "Whether you're brainstorming, digging into the research or ready to dive in, if you're looking to start a coffee truck, you're in the right place! ",
+        "category": "COFFEE, TEA",
+        "licensePlate": "R890L2",
+        "pictureURL": "https://image.shutterstock.com/z/stock-photo-berlin-october-cozy-small-mini-bus-food-market-with-snacks-and-coffee-street-market-754954156.jpg",
+        
         "UserId": 3
     }
 },
@@ -90,21 +91,21 @@
 {
     "model": "User",
     "data": {
-        "name": "Jon Long",
-        "email": "jon@gmail.com",
-        "password": "a1",
+        "name": "GRALYN",
+        "email": "gr@gmail.com",
+        "password": "a4",
         "isTruckOwner": true
 
     }
 }, {
     "model": "Truck",
     "data": {
-        "truckName": "Pho-od Junkies",
-        "desc": "Vietnamese food with a twist! come visit us today for the best Pho-od you ever had...",
-        "category": "Vietnamese",
-        "licensePlate": "M3LUVU",
-        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/lEkOaV63D_44BQX0dApvVw/o.jpg",
-        "menuURL": "https://s3-media1.fl.yelpcdn.com/bphoto/OiCmNkmh-h3S9bzk8C2HrA/o.jpg",
+        "truckName": "Deliver goods",
+        "desc": "We deliver goods to retail customers, such as furniture, small appliances or gardening and nursery supplies. A full-size truck with a shell over the bed, or a trailer attached, will reassure businesses that their loads will be secure. Small, independent hardware stores might also welcome your services.",
+        "category": "Deliver",
+        "licensePlate": "ggwu234",
+        "pictureURL": "https://as2.ftcdn.net/jpg/01/83/37/45/500_F_183374585_W0HQeRTfs0EuXzmj0H9MGoCa7jU1Llwi.jpg",
+        
         "UserId": 4
     }
 },
