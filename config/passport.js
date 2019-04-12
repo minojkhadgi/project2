@@ -1,6 +1,6 @@
 var passport = require("passport");
 var LocalStrategy = require("passport-local").Strategy;
-
+//Passport uses the concept of strategies to authenticate requests. Strategies can range from verifying username and password credentials
 var db = require("../models");
 
 passport.use(new LocalStrategy({

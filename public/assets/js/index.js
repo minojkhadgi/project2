@@ -34,7 +34,7 @@ var myLoc = mymap.locate({
 
 // truck location custom icon
 var truckCustomMaker = L.icon({
-  iconUrl: "./assets/img/marker.png",
+  iconUrl: "./assets/img/truck.png",
   iconSize: [34, 44],
   iconAnchor: [20, 36],
   popupAnchor: [-4, -36],
