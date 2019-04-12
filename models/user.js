@@ -1,5 +1,6 @@
 var bcrypt = require("bcrypt-nodejs");
 var validator = require('validator');
+// Using bcrypt is the proper way to store passwords in your database regardless of whatever language your backend is built in – PHP, Ruby, Python, Node.js, 
 
 module.exports = function (sequelize, DataTypes) {
     // creates our User table
