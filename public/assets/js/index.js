@@ -75,7 +75,7 @@ $(function () {
       var popup = "<div class='text-center'><span style=\"font-size:1.2em;color:#2c73d2;\"><b>" + i.truckName + "</b></span><i>&nbsp;\/\/&nbsp;" + i.category + "</i><hr><a href=\"/profile/truck/" + i.id + "\"><img width=\"100%\" src=\"" + i.pictureURL + "\"></a></div>";
       truckMarker.bindPopup(popup);
       truckMarker.addTo(mymap);
-      //addes truck to the truck list
+      //adds truck to the truck list
       if (i.truckName) {
         var main = $("<div>").addClass("col-md-3 col-sm-6 mb-4");
         var name = $("<div>")
